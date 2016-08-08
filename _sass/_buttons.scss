@@ -1,0 +1,117 @@
+.btn {
+  font-family: $lato-font;
+  position: relative;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  padding: 8px 20px;
+  margin: 10px 0;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+/* btn colors */
+.btn.color {
+  border: 2px solid $secondary-color;
+  color: $secondary-color;
+}
+
+.btn.color i {
+  color: $secondary-color;
+}
+
+.btn.color:hover {
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+  color: white;
+}
+
+.btn.color:hover i {
+  color: white;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+/******* SOCIAL MEDIA BUTTONS *******/
+
+.social-media a:hover i {
+  color: $theme-color;
+}
+
+.social-media {
+  padding: 0;
+  color: white;
+}
+
+.social-media a {
+  color: $link-hover-color;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.social-media a i {
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#home .social-media {
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+#home .social-media a {
+  padding: 0 20px 0 0;
+}
+
+.round-icon {
+  display:block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#home .round-icon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.round-icon.linkedin {
+  background-color: #2A76B0;
+  border-bottom: 2px solid #226599;
+}
+
+.round-icon.behance {
+  background-color: #308FEB;
+  border-bottom: 2px solid #277ACA;
+}
+
+.round-icon.twitter {
+  background-color: #64AFE6;
+  border-bottom: 2px solid #5299CD;
+}
+
+.round-icon.email {
+  background-color: #446CB3;
+  border-bottom: 2px solid #3A539B;
+}
+
+.btn span[class^="icon"], .btn i {
+    font-size: 16px;
+    margin-right: 10px;
+}

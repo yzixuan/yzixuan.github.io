@@ -1,0 +1,149 @@
+/******* BACKGROUND IMAGE *******/
+.parallax {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $theme-color;
+
+  img {
+    position: absolute;
+    left: 0;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .parallax img {
+    width: auto;
+  }
+}
+
+#title-header .parallax {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $theme-color;
+  height: 300px;
+}
+
+#header-text {
+  padding-top: 80px;
+  height: 120%;
+  background: $blue-gradient;
+}
+
+/******* HOME TOP *******/
+
+#home {
+  height: 100%;
+  padding: 0;
+
+  .row {
+    height: 100%;
+    padding-bottom: 80px;
+    margin: 0;
+  }
+
+  h1 {
+    display: block;
+    margin: 0;
+    color: $white-translucent;
+    font-size: 40px;
+  }
+
+  .header-info {
+    display: block;
+    padding-top: 70px;
+    padding-left: 40px;
+    margin: 0;
+    height: 60%;
+    color: $white-translucent;
+    font-size: 21px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+  }
+
+  .bottom {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 992px) {
+
+  #home .bottom { bottom: 20px; }
+}
+
+@media (max-width: 420px) {
+
+  #home .bottom { display: none; }
+  #home .container { padding-top: 50px; }
+}
+
+#sitename {
+  line-height: 130px;
+  font-size: 130px;
+}
+
+/******* TITLE HEADER *******/
+
+#title-header {
+  height: 300px;
+  padding: 0;
+
+  .row {
+    height: 100%;
+    padding-bottom: 80px;
+    margin: 0;
+  }
+
+  h1 {
+    display: block;
+    margin: 0;
+    color: $white-translucent;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    position: relative;
+    text-align: center;
+    height: 20%;
+    color: #fff;
+    font-size: 66px;
+
+    i {
+      color: $white-translucent;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.title-box {
+  position: relative;
+  top: 60%;
+}
+
+@media (max-width: 992px) {
+
+  #title-header .bottom { bottom: 20px; }
+}
+
+@media (max-width: 420px) {
+
+  #title-header .bottom { display: none; }
+  #title-header .container { padding-top: 50px; }
+}

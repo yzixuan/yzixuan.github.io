@@ -1,0 +1,27 @@
+/******* SOLID COLORS ********/
+
+$theme-color: #253A65;
+$secondary-color: #59C8D4;
+$text-color: #333;
+$link-color: #0970a0;
+$link-hover-color: #7db9e8;
+$hr-color: #eee;
+$orange-color: #F5A623;
+$purple-color: #BD10E0;
+$pale-grey-color: #f9f9f9;
+
+/******* TRANSLUCENT COLORS ********/
+
+$blue-gradient: linear-gradient(to bottom,  rgba(148,211,224,0.8) 0%,rgba(125,185,232,0.8) 80%);
+$white-translucent: rgba(255,255,255,.9);
+$dark-blue-translucent: rgba(32,59,79,.8);
+
+/********* THEME GRADIENTS **********/
+$noir-1: #4b6cb7;
+$noir-2: #182848;
+
+@mixin color-gradient($color-1, $color-2) {
+  background: $color-1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, $color-1 , $color-2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, $color-1 , $color-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

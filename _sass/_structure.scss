@@ -1,0 +1,53 @@
+html, body {
+  font-family: $lato-font;
+  color: $text-color;
+  height: 100%;
+}
+
+ul {
+  margin: 0; padding: 0;
+}
+
+hr {
+  border-color: $hr-color;
+  margin: 0;
+}
+
+/* Vertical Align */
+.row.vcontainter {
+  position: static;
+  display: table;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.padding-extra-bottom {
+  padding-bottom: 100px;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  padding: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.last {
+  margin-bottom: 0;
+}
+
+/* Empty space for empty columns */
+.section .row .empty[class^='col-md-'] {
+  margin-bottom: 0;
+}
+
+/* Full Height Column */
+.section .row .full[class^='col-md-'] {
+  height: 100%;
+}

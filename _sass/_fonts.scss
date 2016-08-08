@@ -1,0 +1,49 @@
+$lato-font: 'Lato', Arial, Helvetica, sans-serif;
+$montserrat-font: "Montserrat", Helvetica, Arial, sans-serif;
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $lato-font;
+  font-weight: bold;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+h3 {
+  color: $secondary-color;
+  margin: 0 0 15px 0;
+  letter-spacing: .5px;
+}
+
+a {
+  font-family: $montserrat-font;
+  font-weight: normal;
+
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 100;
+
+  /* anchor colors */
+  a { color: $link-color; }
+  a:hover { color: $link-hover-color; }
+}
+
+li {
+  font-weight: 100;
+}

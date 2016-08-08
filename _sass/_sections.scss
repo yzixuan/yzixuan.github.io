@@ -1,0 +1,49 @@
+.section {
+  overflow: hidden;
+  background-color: #fff;
+
+  &.gray { background-color: $pale-grey-color; }
+
+  &.navy {
+    @include color-gradient($noir-1, $noir-2);
+
+    .title, .description { color: #fff; }
+  }
+
+  p {
+    line-height: 25px;
+
+    &.description {
+      font-size: 18px;
+      line-height: 36px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .container {
+    position: relative;
+    padding: 100px 0;
+    width: 100%;
+
+    &.no-bottom { padding-bottom: 0; }
+
+    .content {
+      padding: 0 30px;
+    }
+  }
+}
+
+/******* ABOUT SECTION *******/
+
+#about h3 {
+  letter-spacing: 2px;
+}
+
+.skill-list li {
+  list-style: inherit;
+  margin: 10px 20px;
+}

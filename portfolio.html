@@ -1,0 +1,8 @@
+---
+layout: portfolio-page
+title: My Portfolio
+---
+
+{% for post in site.posts %}
+  {% include portfolio-card.html %}
+{% endfor %}

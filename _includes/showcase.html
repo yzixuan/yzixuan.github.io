@@ -1,0 +1,21 @@
+<div class="container">
+
+    <div class="text-center padding-bottom">
+      <h2 class="title">RECENT WORKS</h2>
+    </div>
+
+    <div class="row padding-extra-bottom">
+        <div class="col-sm-10 col-sm-offset-1 padding-bottom">
+      {% for post in site.posts limit:3 %}
+        {% include portfolio-card.html %}
+      {% endfor %}
+    </div>
+    </div>
+
+    <div class="text-center">
+      <a href="portfolio.html">
+      <button class="btn color" href="portfolio.html">VIEW ALL MY WORKS</button>
+    </a>
+    </div>
+
+</div>
