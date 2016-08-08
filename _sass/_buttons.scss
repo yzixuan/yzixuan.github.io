@@ -42,6 +42,23 @@
   transition: color .3s;
 }
 
+.btn.sec-btn {
+  border: 2px solid $secondary-color;
+  color: white;
+  background-color: $secondary-color;
+  margin-left: 10px;
+
+  &:hover {
+    border: 2px solid $theme-color;
+    background-color: $theme-color;
+
+    i {
+      -webkit-transition: color .3s;
+      transition: color .3s;
+    }
+  }
+}
+
 /******* SOCIAL MEDIA BUTTONS *******/
 
 .social-media a:hover i {
@@ -104,6 +121,11 @@
 .round-icon.twitter {
   background-color: #64AFE6;
   border-bottom: 2px solid #5299CD;
+}
+
+.round-icon.readmore {
+  background-color: $secondary-color;
+  border-bottom: 2px solid $secondary-color;
 }
 
 .round-icon.email {
