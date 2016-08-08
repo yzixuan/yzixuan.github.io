@@ -1,0 +1,25 @@
+<div class="col-sm-5 col-xs-12">
+  <div class="portfolio-card">
+    <a href="{{ post.url }}" target="_new">
+      <img src="{{ post.image }}" />
+      <p>
+        <span class="round-icon behance">
+          <i class="fa fa-behance"></i>
+        </span>
+        <br/>
+        READ MORE
+      </p>
+    </a>
+    </div>
+</div>
+<div class="col-sm-7 col-xs-12">
+  <h5>RECENT WORK:</h5>
+  <h2>{{ post.title }}</h2>
+  <p>
+    {{ post.content | strip_html | truncatewords:50}}
+    </br></br>
+     <a href="{{ post.url }}">
+       <button class="btn color">READ MORE</button>
+     </a>
+  </p>
+</div>
