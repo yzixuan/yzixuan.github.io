@@ -140,8 +140,9 @@
 /******* CUSTOM GRID SIZE FOR EXTRA LARGE DEVICES *******/
 
 @media (min-width: 1500px) {
-.col-xl-3 {
+  .col-xl-3 {
     width: 25%;
+  }
 }
 
 @media (max-width: 992px) {
