@@ -6,6 +6,65 @@ date:   2016-07-12 00:57:38 +0800
 image: img/travelmates.png
 categories: travel ui ux design sketch
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Prior to the prevalence of the Internet, trip planning is largely associated with tour agencies who are experts in this domain. It was difficult to plan a trip without easy access to travel information, not to mention the insecurity and unsettling prospect of being lost in a foreign land. Yet springing forward to today's context, F&E traveling is increasingly the method of choice for travelers to conduct their trip. However, F&E travelers tend to rely on disjointed avenues to fulfill their research, transactional and organizational needs, which compromise on the ease of planning their trip.
+
+&nbsp;
+
+![alt text]({{ "/img/travelmates/homepage.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### What's TravelMates?
+
+It's a travel hub for Free & Easy (F&E) travelers which my team and I designed for a service innovation module. This page showcases a revamped version of the design I did many years back.
+
+TravelMates serves as a single platform that allows F&E travelers to consolidate flights, accommodations and all other trip activities in a single itinerary, as well as introduce social elements to help travelers find companions with similar interests, communicate with fellow trip members and share information before and after the trip.
+
+&nbsp;
+
+### User Personas
+
+![alt text]({{ "/img/travelmates/user-story-1.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Search for Hotels, Flights & Trip Activities
+
+Allows users to search for information on TravelMates by entering a few keywords and selecting the categories of interest. Relevant results will be displayed in a list of activities ranked by relevance, and sorted by popularity, price or name.
+
+![alt text]({{ "/img/travelmates/activity-information.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Trip Itinerary Planner
+
+A trip itinerary planner would allow users to select and organize activities by simply dragging and dropping activities from the search list into specific time slots in the schedule. We also thought that the backend system should actively help to ensure that there are no clashes in activity timings while multiple versions of such itineraries may be saved for future reference.
+
+Travelers may also choose to share any of these itineraries with the online community or to their accounts in other social media platforms. Conversely, they may also reference and import itineraries shared by other travellers to the itinerary planner as a base for their own trip planning purposes.
+
+&nbsp;
+
+![alt text]({{ "/img/travelmates/itinerary.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+To allow other travelers to join this trip, travelers may also opt to make this trip public, by invitation only, or totally private. At any point in time thereafter, users can receive updates from fellow trip members who have joined their trips as well as make comments or add activities to the shared itinerary.
+
+F&E travelers are typically of the more adventurous type that desires flexibility of their itinerary and control over elements of their trip. While planning a trip based on individual research and separate booking of activities, accommodations and flights might offer the flexibility that F&E travelers seek, it necessarily sacrifices the convenience that the travel agencies have to offer. However, with the implementation of TravelMates, this will no longer be a significant compromise as travel information and transactions with individual activity suppliers are congregated through a single point of research, booking, payment and point of reference.
+
+&nbsp;
+
+### Review Trip Activities & Travel-Related Content
+
+To encourage active usage and provide alternative perspectives, TravelMates could help to collate reviews and user-contributed information for each activity listed on TravelMates. By allowing users to rate other users’ reviews as well, the platform reaches out to the masses for help in maintaining the integrity and quality of information available on the platform. Any reviews that fail automated system checks will be suspended while pending moderation by TravelMates staff.
+
+&nbsp;
+
+![alt text]({{ "/img/travelmates/review.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Final Thoughts
+
+While TravelMates is just a hypothetical web app for a service science module, I had tons of fun designing the mockups with my teammates and addressing the gaps in the trip planning industry as a team. While the effort required in the implementation of TravelMates may raise doubts over its viability, we believe that its social elements and hassle-free approach would redefine the way F&E trip planning is done.
