@@ -13,7 +13,9 @@ QuickDesk is a CRM application optimized for sales professionals and teams to ma
 
 ![alt text]({{ "/img/quickdesk/web-app.png" | prepend: site.baseurl }})
 
-During my brief stint at PearComms, I helped create the user experience design of the web app. I produced all major deliverables and worked with my client between February 2015 and April 2015. I worked alongside the co-founders, marketing lead and 2 developers.
+&nbsp;
+
+During my brief stint at PearComms, I helped create the user experience design of the web app. I produced the major deliverables and worked with my client between February 2015 and April 2015. I worked alongside the co-founders, marketing lead and 2 developers.
 
 Target Audience:
 
@@ -30,7 +32,7 @@ Salespeople communicate heavily with their clients and prospective leads on a re
 
 ### The Task
 
-Design a dashboard system that allows the user to manage and communicate with a large number of leads.
+My assignment was to design a dashboard system that allows the user to manage and communicate with a large number of leads.
 
 The user should also be able to track his progress in contacting and initiating follow-ups with his leads, and categorize each lead under a particular contact status (e.g. New or Prospect) from time to time.
 
