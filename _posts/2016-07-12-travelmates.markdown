@@ -23,6 +23,24 @@ TravelMates serves as a single platform that allows F&E travelers to consolidate
 
 &nbsp;
 
+### Key Stakeholders:
+
+While there are many stakeholders in the trip planning industry segment, they can generally be grouped into 3 main categories, namely suppliers, tour agencies and travelers.
+
+* **Suppliers**: Suppliers here refer to sectors which tour agencies partner with to deliver the tour package, such as airlines, hotels, restaurants, activity vendors etc.
+* **Tour Agencies**: The main service providers of this industry segment are middlemen businesses providing one-stop travel-related services such as booking of tour packages, flights and accommodations. Online Tour Agencies (OTA) such as Travelocity and Expedia are also included in this classification.
+* **Travellers**: The potential clients of tour agencies, including anyone who has the intentions of travelling abroad for reasons including holiday-making, business, conference or others.
+
+&nbsp;
+
+### The Challenge
+
+Free & Easy traveling is increasingly the method of choice for travelers to conduct their trip. This reflects a change in the travel appetite of tourists in which the current market seems unprepared to address effectively. As a result, F&E travelers currently rely on disjointed avenues to fulfill their research, transactional and organizational needs, which compromise on the ease of planning their trip. 
+
+In response, our proposed service innovation will aim to tackle the challenge of streamlining the trip planning process for F&E travelers. This will be achieved by providing a single platform catering to all their needs with particular emphasis on 2 areas currently not addressed by existing offerings. The first would prompt a single consolidated transaction for flights, accommodations and all other trip activities, while the second would see the introduction of social elements to help travelers find companions with similar interests, communicate with fellow trip members and share information before and after the trip.
+
+&nbsp;
+
 ### User Personas
 
 ![alt text]({{ "/img/travelmates/user-story-1.png" | prepend: site.baseurl }})
