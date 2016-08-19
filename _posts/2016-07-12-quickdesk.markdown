@@ -55,7 +55,7 @@ At PearComms, we wanted to build a CRM system that caters to both types of sales
 
 The PearComms team had come up with a master wireframe detailing the dashboard screens and contact cards. During my stint, I worked closely with the development team to clarify doubts and discuss about changes to the wireframes and process flows from one screen to another. I modified some of the wireframes to make some pertinent features more obvious to the users.
 
-![alt text]({{ "/img/quickdesk/wireframe.png" | prepend: site.baseurl }})
+![alt text]({{ "/img/quickdesk/wireframe.jpeg" | prepend: site.baseurl }})
 
 &nbsp;
 
