@@ -1,8 +1,8 @@
 $lato-font: 'Lato', Arial, Helvetica, sans-serif;
-$montserrat-font: "Montserrat", Helvetica, Arial, sans-serif;
+$dosis-font: 'Asap', serif;
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: $lato-font;
+  font-family: $dosis-font;
   font-weight: bold;
 }
 
@@ -24,6 +24,7 @@ h3 {
 }
 
 .h5-label {
+  font-family: $dosis-font;
   font-size: 18px;
   letter-spacing: 2px;
   color: $secondary-color;
@@ -31,7 +32,7 @@ h3 {
 }
 
 a {
-  font-family: $montserrat-font;
+  font-family: $dosis-font;
   font-weight: normal;
 
   -webkit-transition: color .3s;

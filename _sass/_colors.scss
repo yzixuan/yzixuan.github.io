@@ -2,7 +2,7 @@
 
 $theme-color: #253A65;
 $secondary-color: #59C8D4;
-$text-color: #333;
+$text-color: #89848B;
 $link-color: #0970a0;
 $link-hover-color: #7db9e8;
 $hr-color: #eee;
@@ -24,4 +24,8 @@ $noir-2: #182848;
   background: $color-1; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, $color-1 , $color-2); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, $color-1 , $color-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cyan-color {
+  color: $secondary-color;
 }
