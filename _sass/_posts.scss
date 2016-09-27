@@ -1,0 +1,35 @@
+/***** PAGE NAVIGATION *****/
+.page-navigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  font-family: $dosis-font;
+
+  a {
+    display: block;
+    float: left;
+    margin: 1em 0;
+  }
+
+  .next {
+    text-align: right;
+    float: right;
+  }
+}
+
+@media (max-width: 565px) {
+  .page-navigation {
+    text-align: center;
+
+    a {
+      float: none;
+      text-align: center;
+    }
+
+    .next {
+      float: none;
+      text-align: center;
+    }
+  }
+}
