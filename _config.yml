@@ -8,9 +8,12 @@
 # Site settings
 title: Zee's Portfolio
 email: sayhi@zee.sg
-description: > # this means to ignore newlines until "baseurl:"
-  Zee's UI and UX portfolio
+description: >
+  Zee is a UI (User Interface) and UX (User Experience) designer based in Singapore
+  who crafts friendly and intuitive user interaction and user interface design for the web, mobile devices and apps.
+  She codes too, mostly in HTML, CSS and JavaScript.
 baseurl: "" # the subpath of your site, e.g. /blog
+keywords: ui,ux,digital,app,web,mobile,website,design,designer,development
 url: "http://zee.sg" # the base hostname & protocol for your site
 twitter_username: GabrielaZee
 behance_username: yzixuan
