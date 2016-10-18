@@ -58,6 +58,25 @@
   }
 }
 
+.btn.teal.color{
+  border: 2px solid $teal-color;
+  color: $teal-color;
+
+  i {
+    color: $teal-color;
+  }
+  &:hover {
+    background-color: $teal-color;
+    border-color: $teal-color;
+    color: white;
+    i {
+      color: white;
+      -webkit-transition: color .3s;
+      transition: color .3s;
+    }
+  }
+}
+
 /******* SOCIAL MEDIA BUTTONS *******/
 
 .social-media a:hover i {
