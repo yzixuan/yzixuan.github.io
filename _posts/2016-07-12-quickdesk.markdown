@@ -38,7 +38,7 @@ The user should also be able to track his progress in contacting and initiating 
 
 &nbsp;
 
-### User Personas
+### Target Users
 
 There are generally 2 types of salespeople – hunters and farmers. A hunter is one who opens new markets and focuses on customer acquisition, whereas a farmer spends their time cultivating existing customers to allow for even more sales, with greater emphasis on customer retention.
 

@@ -19,13 +19,18 @@ On the other hand, social media influencers can negotiate the perks received by 
 
 &nbsp;
 
-### User Personas
+### Target Users
+
+HoneyHype aims to bridge the needs of 2 types of users - niche food brands and influential Instagram users.
+We aim to help food brands that wish to give their businesses extra exposure on social media channels such as Instagram and hopefully attract customers from social media savvy groups. We try to achieve this by connecting brands to social media influencers who actively post sponsored content on their channels that serve as their followers' go-to source of information and recommendation.
 
 ![alt text]({{ "/img/honeyhype/users.png" | prepend: site.baseurl }})
 
 &nbsp;
 
 ### Landing Page
+
+During my brief stint, I worked with my client over a few iterations to produce a single-page landing site. This was the (more-or-less) finalized design. As HoneyHype was a relatively novel concept, it could not just be any other generic landing page. It also had to explain to potential users how the platform works and how it could benefit them, but the explanation had to be simple as well.
 
 ![alt text]({{ "/img/honeyhype/landing.png" | prepend: site.baseurl }})
 

@@ -35,21 +35,35 @@ While there are many stakeholders in the trip planning industry segment, they ca
 
 ### The Challenge
 
-Free & Easy traveling is increasingly the method of choice for travelers to conduct their trip. This reflects a change in the travel appetite of tourists in which the current market seems unprepared to address effectively. As a result, F&E travelers currently rely on disjointed avenues to fulfill their research, transactional and organizational needs, which compromise on the ease of planning their trip. 
+Free & Easy traveling is increasingly the method of choice for travelers to conduct their trip. This reflects a change in the travel appetite of tourists in which the current market seems unprepared to address effectively. As a result, F&E travelers currently rely on disjointed avenues to fulfill their research, transactional and organizational needs, which compromise on the ease of planning their trip.
 
 In response, our proposed service innovation will aim to tackle the challenge of streamlining the trip planning process for F&E travelers. This will be achieved by providing a single platform catering to all their needs with particular emphasis on 2 areas currently not addressed by existing offerings. The first would prompt a single consolidated transaction for flights, accommodations and all other trip activities, while the second would see the introduction of social elements to help travelers find companions with similar interests, communicate with fellow trip members and share information before and after the trip.
 
 &nbsp;
 
-### User Personas
+### Target Users
+
+While we have three key stakeholders as explained earlier, the primary users of the TravelMates portal would generally be F&E travelers themselves. Although the availability of information over the Internet has made it easier for F&E travelers to plan their own trips, the process of doing so is certainly not an easy one.
 
 ![alt text]({{ "/img/travelmates/user-story-1.png" | prepend: site.baseurl }})
+
+Anyone who has been involved in such a planning process should be able to identify with the hassle brought about from the following 5 typical tasks in F&E trip planning:
+
+1. Reference available itineraries for inspiration
+2. Search for interesting activities through various sources
+3. Book flights, accommodations & activities separately
+4. Organize and consolidate all trip information, documents and instructions
+5. Communicate trip details with fellow trip partners
 
 &nbsp;
 
 ### Search for Hotels, Flights & Trip Activities
 
-Allows users to search for information on TravelMates by entering a few keywords and selecting the categories of interest. Relevant results will be displayed in a list of activities ranked by relevance, and sorted by popularity, price or name.
+Our portal should allow users to search for information on TravelMates by entering a few keywords and selecting the categories of interest. Relevant results will be displayed in a list of activities ranked by relevance, and sorted by popularity, price or name.
+
+Searching for activities to do during trips as well as itineraries planned by others for reference are typically the central processes to F&E trip planning. Hence this service allows users to search for information on TravelMates by entering a few keywords and selecting the categories of interest. Relevant results will be displayed in a list of activities ranked by relevance, and sorted by popularity, price or name. Each activity listing is then accompanied with key information such as the address, opening hours and the average rating provided by TravelMates’ users.  Full itineraries that have been planned and shared by other users may also be searched for in a similar fashion.
+
+&nbsp;
 
 ![alt text]({{ "/img/travelmates/activity-information.png" | prepend: site.baseurl }})
 
