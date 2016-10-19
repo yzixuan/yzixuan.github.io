@@ -7,7 +7,9 @@ image: img/travelmates.png
 categories: travel ui ux design sketch
 ---
 
-Prior to the prevalence of the Internet, trip planning is largely associated with tour agencies who are experts in this domain. It was difficult to plan a trip without easy access to travel information, not to mention the insecurity and unsettling prospect of being lost in a foreign land. Yet springing forward to today's context, F&E traveling is increasingly the method of choice for travelers to conduct their trip. However, F&E travelers tend to rely on disjointed avenues to fulfill their research, transactional and organizational needs, which compromise on the ease of planning their trip.
+TravelMates is a social itinerary planner and travel community for Free & Easy (F&E) travelers which my team and I designed for a service innovation module we took in the National University of Singapore (NUS). This page showcases a revamped version of the design I did many years back.
+
+TravelMates serves as a single platform that allows F&E travelers to consolidate flights, accommodations and all other trip activities in a single itinerary, as well as introduce social elements to help travelers find companions with similar interests, communicate with fellow trip members and share information before and after the trip.
 
 &nbsp;
 
@@ -15,11 +17,9 @@ Prior to the prevalence of the Internet, trip planning is largely associated wit
 
 &nbsp;
 
-### What's TravelMates?
+### Background
 
-It's a travel hub for Free & Easy (F&E) travelers which my team and I designed for a service innovation module. This page showcases a revamped version of the design I did many years back.
-
-TravelMates serves as a single platform that allows F&E travelers to consolidate flights, accommodations and all other trip activities in a single itinerary, as well as introduce social elements to help travelers find companions with similar interests, communicate with fellow trip members and share information before and after the trip.
+Prior to the prevalence of the Internet, trip planning is largely associated with tour agencies who are experts in this domain. It was difficult to plan a trip without easy access to travel information, not to mention the insecurity and unsettling prospect of being lost in a foreign land. Yet springing forward to today's context, F&E traveling is increasingly the method of choice for travelers to conduct their trip. However, F&E travelers tend to rely on disjointed avenues to fulfill their research, transactional and organizational needs, which compromise on the ease of planning their trip.
 
 &nbsp;
 
