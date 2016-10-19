@@ -21,19 +21,20 @@
     height: 100%;
     text-align: center;
     background-color: $theme-color;
-    color: $secondary-color;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
     font-family: $dosis-font;
-    letter-spacing: 1.2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     -webkit-transition: .5s;
     transition: .5s;
-    padding-top: 20%;
+    padding-top: 25%;
     bottom: -10px;
     border-radius: 4px;
     opacity: 0;
 
     span.round-icon {
-      color: #fff;
+      color: white;
       text-align: center;
       margin: 0 auto;
     }
