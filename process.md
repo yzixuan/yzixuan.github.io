@@ -34,8 +34,8 @@ I’m *agile* and I have a strong focus on rapid collaboration and validated lea
 
 &nbsp;
 
-### 4. User Testing
+### 4. Usability Testing
 
-* I create a list of user tasks based on the prototype we created together
-* I help you conduct testing with your potential end users
+* I create a list of tasks based on the prototype we created together, and get users to perform them
+* I note where users have issues and successes with using the prototype
 * I go through all consolidated testing results and feedback with you, and we learn to make them better in future iterations
