@@ -2,7 +2,7 @@
 layout: post
 title:  "HoneyHype"
 behance-url: https://www.behance.net/gallery/33503955/HoneyHypeSG-Influencer-Marketing-Platform
-date:   2016-07-12 00:57:38 +0800
+date:   2016-05-12 00:57:38 +0800
 image: img/honeyhype.png
 categories: food marketing ui ux design sketch
 ---

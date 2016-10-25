@@ -1,0 +1,131 @@
+---
+layout: post
+title:  "Food Bank"
+behance-url: https://www.behance.net/gallery/32452763/Travel-Mates-Trip-Itinerary-Planner-UI-Design
+date:   2016-06-12 00:57:38 +0800
+image: img/foodbank.png
+categories: food charity ui ux design sketch
+---
+
+During my candidature in the National University of Singapore (NUS), I took an IT consulting module with five other Information Systems majors to work with a local charity organization, The Food Bank Singapore Ltd (also known as Food Bank). We identified underlying issues in Food Bank's current operation processes and presented a comprehensive solution to address these issues. As part of our proposed solutions, we designed a mobile app to aid Food Bank's end users in some of their day-to-day operations.
+
+&nbsp;
+
+![alt text]({{ "/img/foodbank/overview.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Client Background
+
+Food Bank Singapore, an official member of The Global FoodBanking Network, started off in January 2012 with the objective of reducing food wastage in Singapore. It attained non-profit status in August 2012 and has since begun to bridge this gap in the food industry by collecting surplus food and redistributing them to people in need.
+
+![alt text]({{ "/img/foodbank/how-it-works.png" | prepend: site.baseurl }})
+
+As shown in the above diagram, Food Bank acts as a coordinator between different stakeholders such as the volunteers, donors (manufacturers, distributors, retail and consumers) and the beneficiary centres (community service providers) in the food supply chain. Donors will donate their unused or unwanted food to Food Bank. Donated food will then be allocated and distributed to the needy through a network of more than 130 member beneficiaries such as various types of homes, soup kitchens, family service centres and other voluntary welfare organisations (VWOs).
+
+
+&nbsp;
+
+### The Challenge
+
+Food Bank faces a critical lack of manpower. Its management currently comprises of a three-man team, which includes the founder of Food Bank (Nichol), a management associate (Jo-an), and a management associate trainee (Margarita). To support Food Bank’s expanding operations, it requires a stable flow of volunteers to assist them with their daily operations such as packing and sorting of food donations. However, their supply of volunteers is not always stable due to the fact that most of Food Bank’s volunteers commit on an ad-hoc basis. With insufficient volunteers, Food Bank would constantly be short-handed to clear and deliver their food donations in time for their beneficiary centres. This may hinder Food Bank’s capability to serve more beneficiaries in the long term.
+
+&nbsp;
+
+### Target Users
+
+At Food Bank, operational staff can be categorised into two main groups.
+
+&nbsp;
+
+#### Management Associates
+
+They are full-time staff who are in-charge of the daily operations, volunteers and the management of various stakeholders. Part of their job scopes include coordinating with donors to arrange donation deliveries and organising food collection drives to collect food items. In addition, they will reach out to volunteers in sorting and taking stock of the food items in the warehouse. Lastly, they will communicate with beneficiary centres to understand their food request needs and arrange delivery of food to them.
+
+&nbsp;
+
+#### Volunteers
+
+Volunteers form the main bulk of manpower in Food Bank. Most volunteers assume roles such as warehouse operators and delivery man. The job scopes of warehouse operator include unpacking and taking stock of donated food items, as well as repacking food items for beneficiary centres. On the other hand, delivery man will collect donated food items from donors and distribute the repackaged food items to beneficiary centres.
+
+&nbsp;
+
+### Key Issues Identified
+
+Throughout the semester, our team identified three main issues in Food Bank's existing business processes.
+
+<!-- combined process flow diagram !-->
+
+**Warehouse Management**
+
+* Warehouse operators often encounter difficulty in sorting donated food items into its respective category and expiration date inside the warehouse. This is because most donated food items are pre-packaged by the donor and would take the operator's conscious effort to correctly match Food Bank’s category system.
+* The use of human data entry on warehouse stocks units count resulted in inconsistency between the actual stock count and information recorded.
+* Food Bank’s management associates’ time is under-utilised as they need to provide direct supervision on their volunteers. Most volunteers will be lost without direction from Food Bank’s staff.
+
+&nbsp;
+
+**Food Allocation Management**
+
+* All donated food items are required to be recorded and attributed to their donors. However, the use of human data entry and lack of a proper system and process has made this accounting to donors difficult.
+* Communication with donors are done through multiple channels including email and WhatsApp with Food Bank’s management associates. The use of such uncontrolled diverse communication mediums increases the risk of miscommunication which leads to deterioration in stakeholders’ confidence.
+* All volunteers’ requests for volunteering sessions have to be assisted by Food Bank’s management associates. In addition, for volunteers who are particular about their CIP or CSR hours, all hours clocked during their volunteering period 24 has to be captured and updated to Salesforce by Food Bank’s management associates.
+
+&nbsp;
+
+**Stakeholder Management**
+
+* Food allocation is a highly time consuming process performed by Food Bank’s management associates to correctly identify and match food items to the right group of beneficiary centres.
+* The beneficiary centres’ resistance in switching to a new solution has rendered the allocating process ineffective in providing the best matches.
+
+&nbsp;
+
+![alt text]({{ "/img/foodbank/fish-bone.jpg" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Proposed Solution
+
+Our team wanted to help Food Bank streamline its operations and distribution of food donations, while maintaining accountability with its stakeholders. This can be achieved through reducing the workload of Food Bank’s staff and increasing overall productivity level in Food Bank’s operations. Over the course of ten weeks, we conducted interviews with Food Bank’s stakeholders to better understand the operational issues that Food Bank has been facing. This led us to design a mobile app to help address some of the issues we identified earlier.
+
+&nbsp;
+
+#### Making it easier for Food Bank to take requests from beneficiaries
+
+&nbsp;
+
+Currently, Food Bank's beneficiaries submit their food requests by filling in a lengthy Google Form. After each food request has been submitted, the staff would download Google Forms into Excel, check for input errors and ensure that there is sufficient stock to meet the beneficiaries' requests before transferring finalized data into Salesforce. In the event of errors, Food Bank's staff would have to contact the beneficiary and request them to resubmit the Google form, which makes it a very tedious process.
+
+My team thought that we could reduce the average time required by a beneficiary centre to choose available food items and submit their food request to Food Bank. Instead of having to repetitively fill in a Google Form for each new request, an dedicated app could allow beneficiaries to request for food items from a list of available items sorted by stock quantity levels, and be notified if Food Bank is unable to meet their requests. The app could serve as a centralized platform for beneficiary centers to request for food items. With this, the manual process of collating food items requests from Google forms and emails can be eliminated.
+
+![alt text]({{ "/img/foodbank/food-requests.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+#### Making it easier for volunteers to sort and catalog donated food items
+
+&nbsp;
+
+Currently, food items are sorted according to their category and the expiration date. At the same time, food safety checks are conducted to filter out food items with damaged food packaging. This ensures that Food Bank’s beneficiary centers do not receive any tamper-evident or contaminated food items. However, data entry is a manual and tedious process. Volunteers key in data such as name, quantity, expiry date, food category for every single donated item into a Google Form while errors are checked by the management associates later on.
+
+One idea proposed by my teammates was to adopt international barcode scanning in place of Google Forms, the number of information fields to record for the food items would be greatly reduced. This is only feasible if Food Bank is able to obtain a database of common supermarket items and their international barcode mappings. As compared to manual data entry, scanning food items' barcodes would definitely help to shorten the entire inventory taking process. Volunteers will only have to input the expiry date and quantity of the food items. It is also interesting to note that the entering of expiry date is only required for food items expiring within two months according to Food Bank’s operation protocol.
+
+As donated food items are reflected in real time on Food Bank’s website when the food items are being scanned by warehouse operators, this would enable beneficiary centers to view and request food based on real-time information of Food Bank’s food availability.
+
+
+![alt text]({{ "/img/foodbank/scanning-inbound.png" | prepend: site.baseurl }})
+
+![alt text]({{ "/img/foodbank/scanning-outbound.png" | prepend: site.baseurl }})
+
+#### Managing Food Deliveries
+
+&nbsp;
+
+Once the food items have been packed and the respective delivery orders have been generated, Food Bank's delivery team would then deliver the food items to the respective beneficiary centers within the following week. When the beneficiary centers receive these food items, delivery is acknowledged by scanning the centre's request QR code given to them prior to the delivery.
+
+![alt text]({{ "/img/foodbank/food-deliveries.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Final Thoughts
+
+This was one of the most workload-intensive yet fulfilling projects I have ever taken throughout my candidature in NUS. The module gave us a opportunity to work with a client to solve existing problems using IT solutions. Over the course of twelve weeks, my team and I had to work closely with our client, study existing systems and conduct interviews with different stakeholders to better understand the operational issues that Food Bank has been facing before we came up with a practical enterprise solution. I honestly felt that our communication and teamwork was decent and I'm grateful to my teammates for their patience and overall enthusiasm with the project! In addition, special thanks go to Food Bank for undertaking this project and for being a cooperative and supportive client!

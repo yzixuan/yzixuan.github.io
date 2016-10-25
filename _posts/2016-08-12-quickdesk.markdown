@@ -2,7 +2,7 @@
 layout: post
 title:  "QuickDesk"
 behance-url: https://www.behance.net/gallery/25803375/Quick-Desk-Web-App-UI-Design
-date:   2016-08-08 00:57:38 +0800
+date:   2016-08-12 00:57:38 +0800
 image: img/quickdesk.png
 categories: posts
 ---
