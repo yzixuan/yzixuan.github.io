@@ -55,3 +55,8 @@ p {
   a { color: $link-color; }
   a:hover { color: $link-hover-color; }
 }
+
+.cassannet-outline {
+  font-family: $cassannet-outline-font;
+  letter-spacing: 5px;
+}
