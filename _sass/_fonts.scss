@@ -1,6 +1,10 @@
 $lato-font: 'Lato', Arial, Helvetica, sans-serif;
 $dosis-font: 'Asap', serif;
 
+// CUSTOM FONT
+$cassannet-outline-font: 'cassannet_outlineregular';
+$cassannet-regular-font: 'cassannet_regularregular';
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $dosis-font;
   font-weight: bold;
