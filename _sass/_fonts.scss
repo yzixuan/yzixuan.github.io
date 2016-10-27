@@ -1,12 +1,12 @@
-$lato-font: 'Lato', Arial, Helvetica, sans-serif;
-$dosis-font: 'Asap', serif;
+$base-font: 'Lato', Arial, Helvetica, sans-serif;
+$secondary-font: 'Asap', serif;
 
 // CUSTOM FONT
 $cassannet-outline-font: 'cassannet_outlineregular';
 $cassannet-regular-font: 'cassannet_regularregular';
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: $dosis-font;
+  font-family: $secondary-font;
   //font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ h3 {
 }
 
 .h5-label {
-  font-family: $dosis-font;
+  font-family: $secondary-font;
   font-size: 18px;
   letter-spacing: 2px;
   color: $secondary-color;
@@ -36,7 +36,7 @@ h3 {
 }
 
 a {
-  font-family: $dosis-font;
+  font-family: $secondary-font;
   font-weight: normal;
 
   -webkit-transition: color .3s;
@@ -48,7 +48,7 @@ a:hover, a:focus {
 }
 
 p {
-  font-family: $lato-font;
+  font-family: $base-font;
   font-size: 15px;
   font-weight: 400;
 
