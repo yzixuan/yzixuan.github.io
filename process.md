@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design Process
+title: How I Work
 permalink: process
 ---
 
