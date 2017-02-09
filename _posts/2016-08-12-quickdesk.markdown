@@ -7,13 +7,9 @@ image: img/quickdesk.png
 categories: posts
 ---
 
-QuickDesk is a CRM application optimized for sales professionals and teams to manage their leads and close prospects easier than ever.
-
-&nbsp;
-
 ![alt text]({{ "/img/quickdesk/web-app.png" | prepend: site.baseurl }})
 
-&nbsp;
+QuickDesk is a CRM application optimized for sales professionals and teams to manage their leads and close prospects easier than ever.
 
 During my brief stint at PearComms, I helped create the user experience design of the web app. I produced the major deliverables and worked with my client between February 2015 and April 2015. I worked alongside the co-founders, marketing lead and 2 developers.
 
