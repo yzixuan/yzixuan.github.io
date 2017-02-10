@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Food Bank"
-behance-url: https://www.behance.net/gallery/32452763/Travel-Mates-Trip-Itinerary-Planner-UI-Design
 date:   2016-06-12 00:57:38 +0800
 image: img/foodbank.png
 categories: food charity ui ux design sketch

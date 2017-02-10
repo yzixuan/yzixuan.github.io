@@ -1,0 +1,155 @@
+---
+layout: post
+title:  "Grain"
+date:   2016-08-12 00:57:38 +0800
+image: img/grain.png
+categories: food delivery ui ux design sketch web mobile
+---
+
+Grain is a unique, online lunch delivery service that aspires to be the Uber of healthy food in Singapore. Customers place orders and pick their preferred time and location for lunch delivery, which is prepared on-demand at Grain's kitchen on the same day. I did a 2-month long freelance project from Feb 2016 to April 2016, and worked alongside Grain's co-founders and developers to re-design parts of the online delivery platform, as well as to come up with a design for an iOS app for making food orders.
+
+Target Audience:
+
+* Busy, office workers in the CBD
+* Companies, corporates
+* Health-conscious foodies
+
+&nbsp;
+
+### The Task
+
+I was given 2 assignments during my brief stint at Grain. Firstly, I had to come up with UI improvements to Grain's existing order form on their web application, and secondly, to come up with a mobile app design for customers to browse the daily menu place food orders on demand.
+
+Any form design ought to be simple and intuitive to the user. The ordering process should also ultimately be fuss-free.
+
+&nbsp;
+
+### Less Pop-Ups
+
+Previously, when a user visited the food customization page (called Grain Personalized), a dialog would pop up to notify the user that Grain is only available in hotzones if the user’s current address is not any one of the pickup points. Instead of a pop-­up window, I felt that we could allow the user to choose a hotzone before activating the Grain personalization form.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/popup-previous.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+This is the alternative I came up with to replace pop-up. I felt that if the user clicked on Grain Personalized and his address is currently nowhere near a hotzone, he should be allowed to select a pickup point easily, instead of having to navigate back to the account page to change the address. The selected pickup point could tentatively replace his current address for this personalized order.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/popup-alt.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Delivery Address Input
+
+As a user, I may want to select a hotzone (pickup point) without having to key in an actual address. My floor and unit number would also not be necessary if I just want to collect food from a pickup point.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/delivery-previous.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+Prior to signing for for an account on Grain, I was aware that there are specific pickup points where delivery is free. So when I was asked to input my delivery address, I wanted to select a pickup point right from the start, but I had no idea how to. So I had to refer to the FAQ section to check the hotzones, and then key in a physical address to be able to select the closest pickup point. I felt that this part could be made easier for a user who is just interested in collecting food from a hotzone.
+
+Instead, I felt that the user can either (1) choose a hotzone from a list or (2) enter a physical address. If the user chooses a hotzone, there is no need for him to enter floor and unit number, except for hotzones like Marina Bay Financial Center (to be elaborated further in the next page). If the user chooses to enter his physical address, it could just show the existing delivery address form.
+
+This was the alternative design I proposed for getting the user to input their delivery address:
+
+&nbsp;
+
+![alt text]({{ "/img/grain/delivery-alt.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+If a user (STEP 1) chooses a hotzone where food can be delivered to any floor, an additional form could appear below to allow the user to (STEP 2) input a designated floor and unit number.
+
+&nbsp;
+
+### Checkout Page
+
+Grain's original checkout page’s design is relatively clean and simple enough for the user to select the delivery time too. However, the only way to remove an item from a cart is to type 0 in the quantity field, which may be a hassle for the user here. I also felt that the placement of the delivery location at the top of the order was not very noticeable, as I did not notice it until I scrolled to the top of the page again.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/checkout-previous.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+I felt that there should be an ‘x’ button next to the food description to make it easier for the user to remove items from the cart.
+
+The text description about delivery location could also be shifted to the right of the food order details, instead of displaying it at the top. This would also fit the user’s natural eye movement, where attention moves from left (food description) to right (delivery and time) and then to bottom (total due), instead of having to look up again.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/checkout-alt.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Address & Checkout Form Redesign
+
+I also redesigned Grain's address form to allow users to differentiate between the delivery and pickup option, and also to allow users in hotzone areas to still be able to choose the delivery option. I also wanted to find ways to encourage companies to check out Grain for Businesses when a large number of orders was entered during checkout.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/address-form.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+I removed the field where users choose delivery or pickup as their mode of collection. However, if the user’s address happens to be within a hotzone, they will be alerted of nearby pick up points which they can choose during the checkout process.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/checkout-alt-2.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+In addition, I made some changes to the checkout form to allow users choose their preferred mode of collection for their orders during their checkout instead of in the address form. Users may also choose a different mode of collection for each day.
+
+If the user’s address is within a hotzone, they would be able choose the mode of collection (either the delivery or pickup option) for different days. On the other hand, if the user’s address is not within a hotzone, then the default mode of collection would just be via delivery.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/grain-for-biz.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+If the user orders a number of meals beyond a certain threshold (e.g. 70) and selects pickup as a mode of collection, a message could appear to suggest the user to try Grain for Businesses instead. This is because we wanted to try to discourage companies from exploiting the free pickup option when they place bulk orders.
+
+&nbsp;
+
+### Mobile App Design
+
+&nbsp;
+
+![alt text]({{ "/img/grain/mobile-menu.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+Each main dish’s photo should be preferably presented and displayed from a bird’s eye view. The table backdrop should also move along as the user scrolls through each dish.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/menu-info.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+In addition, when the user scrolls down or taps on the orange INFO ribbon on the left of the screen, more information about the dish is revealed (ingredients, nutritional info etc.) Nutritional Info could be presented in the form of progress circles to show the relative weight of each nutrition.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/sides.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+The sides and drinks can be accessed by scrolling to the last 2 screens. Since Grain’s menu is quite small (only 3 to 4 main dishes per week) and considering how most users’ priority in ordering are not the sides and drinks, it should not be too much of a hassle to scroll right to view the sides and drinks. The more important way to get users to order sides and drinks should still be through the ‘add to cart’ interaction described in the previous page.
+
+&nbsp;
+
+![alt text]({{ "/img/grain/extras.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+Lastly, when a user adds a main dish to the cart, a modal appears to allow the user to add accompanying sides and drinks to their order. This acts as another way to encourage users to browse additional sides after selecting their main dish.
