@@ -1,7 +1,8 @@
-<div id="contact" class="section navy">
+<div id="contact" class="section">
   <div class="container no-bottom">
     <div class="content">
       <div class="text-center">
+        <!--
         <h2 class="title">CONTACT</h2>
 
           <p class="description">I’m open to project ideas, chit-chat and supper. <br/>You can reach me at my email</p>
@@ -15,13 +16,15 @@
             </a>
             <br/> <br/>
 
+
           <p class="description">Let's connect on</p>
+          !-->
 
           <p class="social-media">
 
-            <a href="https://twitter.com/{{ site.twitter_username }}" data-toggle="tooltip" title="twitter">
-              <span class="round-icon twitter">
-                <i class="fa fa-twitter"></i>
+            <a href="mailto:{{ site.email }}">
+              <span class="round-icon email">
+                <i class="fa fa-envelope-o"></i>
               </span>
             </a>
 
@@ -44,11 +47,11 @@
   </div>
 </div>
 
-<div id="footer" class="section light navy">
+<div id="footer" class="section light">
   <div class="container">
     <div class="row">
       <div class="text-center">
-        <p>Web Design, Code &amp; Content &copy; 2016 Zee.</br>Built using Jekyll &amp; Sass.</a></p>
+        <p>Web Design, Code &amp; Content &copy; 2016 Zee.</br>Drop me a mail at <a href="mailto:{{ site.email }}" class="cyan-color"><strong>sayhi@zee.sg</strong></a>.</p>
      </div>
     </div>
   </div>

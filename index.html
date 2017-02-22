@@ -1,19 +1,7 @@
 ---
-layout: default
+layout: index-portfolio
 ---
 
-<div id="home" class="section">
-  {% include header-image.html %}
-</div>
-
-<div id="about" class="section">
-  {% include about.html %}
-</div>
-
-<div id="experience" class="section gray">
-  {% include experience.html %}
-</div>
-
-<div id="portfolio" class="section">
-  {% include showcase.html %}
-</div>
+{% for post in site.posts %}
+  {% include portfolio-card.html %}
+{% endfor %}

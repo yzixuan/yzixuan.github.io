@@ -26,7 +26,7 @@
 
   .container {
     position: relative;
-    padding: 100px 0;
+    padding: 30px 0;
     width: 100%;
 
     &.no-bottom { padding-bottom: 0; }
@@ -48,10 +48,36 @@
   margin: 10px 20px;
 }
 
+.wrapper {
+
+  padding: 0px 20px;
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: 0px;
+  }
+}
+
 /******* EXPERIENCE SECTION ******/
 
 #experience .container {
   width: 100%;
+}
+
+h3.line-title {
+  width:100%;
+  text-align:center;
+  border-bottom: 1px solid #cecad0;
+  line-height:0.1em;
+  margin:10px 0 20px;
+}
+
+h3.line-title span {
+  background: white;
+  padding: 0 10px;
 }
 
 .timeline {
@@ -65,8 +91,8 @@
     position: absolute;
     width: 1px;
     left: 25%;  /*for adjusting timeline*/
-    top: -100px;
-    bottom: -100px;
+    top: 60px;
+    bottom: 100px;
     background-color: #cecad0;
   }
 

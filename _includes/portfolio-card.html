@@ -1,27 +1,11 @@
 <!--
-<div class="col-md-4 col-sm-6 col-xs-12">
-  <h4 class="text-center">{{ post.title }}</h4>
-  <div class="portfolio-card">
-    <a href="{{ post.url }}">
-      <img src="{{ post.image }}" />
-      <p>
-        <span class="round-icon readmore">
-          <i class="fa fa-comments-o"></i>
-        </span>
-        <br/>
-        Read More
-      </p>
-    </a>
-  </div>
-</div>
-!-->
 <div class="row padding-bottom">
   <div class="col-sm-5 col-xs-12">
     <div class="portfolio-card">
       <a href="{{ post.url }}" target="_new">
         <img src="{{ post.image }}" />
         <p>
-          Read More
+          READ MORE
         </p>
       </a>
       </div>
@@ -37,3 +21,15 @@
     </p>
   </div>
 </div>
+!-->
+  <div class="col-sm-6 col-xs-12">
+    <div class="portfolio-card">
+      <a href="{{ post.url }}" target="_new">
+        <img src="{{ post.image }}" />
+        <p>
+          <span class="line-title">READ MORE</span><br/><br/>
+          {{ post.title }}
+        </p>
+      </a>
+      </div>
+  </div>
