@@ -13,3 +13,17 @@
     font-weight: 300;
   }
 }
+
+.copyright {
+  float: right;
+}
+
+@media (max-width: 992px) {
+  #team.section .content {
+    text-align: left;
+  }
+
+  a.portrait-wrapper {
+    margin: 20px auto;
+  }
+}
