@@ -7,31 +7,21 @@ layout: default
   <div class="section">
     <div class="container">
       <div class="content">
-
         <div class="row single vcontainer">
           <div class="col-md-8 col-md-offset-2 padding-bottom">
             {{ content }}
           </div>
           <div class="col-md-8 col-md-offset-2">
-            <!--
-              <div class="PageNavigation">
+              <div class="page-navigation">
+                <a href="/portfolio" class="prev">
+                  <button class="btn color">Back to Portfolio</button>
+                </a>
                 {% if page.previous.url %}
-                  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-                {% endif %}
-                {% if page.next.url %}
-                  <a class="next" href="{{page.next.url}}">Up Next: {{page.next.title}} &raquo;</a>
-                {% endif %}
-              </div>!-->
-                <div class="page-navigation">
-                  <a href="/portfolio" class="prev">
-                    <button class="btn color">Back to Portfolio</button>
+                  <a class="next" href="{{page.previous.url}}">
+                    <button class="btn color">Next <span class="next-sign">&raquo;</span> {{page.previous.title}}</button>
                   </a>
-                  {% if page.previous.url %}
-                    <a class="next" href="{{page.previous.url}}">
-                      <button class="btn color">Next <span class="next-sign">&raquo;</span> {{page.previous.title}}</button>
-                    </a>
-                  {% endif %}
-                </div>
+                {% endif %}
+              </div>
           </div>
         </div>
       </div>

@@ -116,9 +116,19 @@
     display: block;
     margin: 0;
     color: $secondary-color;
+    font-family: $base-font;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  hr {
+    max-width: 50px;
+    text-align: center;
+    margin: auto;
+    height: 3px;
+    margin-top: 30px;
+    background-color: $secondary-color;
   }
 
   .logo {
@@ -140,7 +150,8 @@
 
 .title-box {
   position: relative;
-  top: 60%;
+  text-align: center;
+  top: 50%;
 }
 
 /******* CUSTOM GRID SIZE FOR EXTRA LARGE DEVICES *******/
