@@ -1,24 +1,9 @@
-<div class="col-sm-5 col-xs-12">
-  <div class="portfolio-card">
-    <a href="{{ post.url }}" target="_new">
-      <img src="{{ post.image }}" />
-      <p>
-        Read More
-      </p>
-    </a>
-    </div>
-</div>
-<div class="col-sm-7 col-xs-12">
-  <h5 class="h5-label">RECENT WORK:</h5>
-  <h2>{{ post.title }}</h2>
-  <p>
-    {{ post.content | strip_html | truncatewords:50}}
-    </br></br>
-     <a href="{{ post.url }}">
-       <button class="btn color">Read More</button>
-     </a>
-     <a href="portfolio">
-       <button class="btn color sec-btn">View All Works</button>
-     </a>
-  </p>
+<div id="portfolio" class="section">
+  <div class="container">
+      <div class="col-md-10 col-md-offset-1 padding-extra-bottom">
+        {% for post in site.posts %}
+          {% include portfolio-card.html %}
+        {% endfor %}
+      </div>
+  </div>
 </div>

@@ -3,7 +3,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: transparent;
+
+  &.section {
+    background-color: transparent;
+  }
 
   .container {
     padding: 20px;
