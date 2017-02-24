@@ -191,3 +191,12 @@ h3.line-title span {
     width: 60%;  /*for adjusting timeline*/
   }
 }
+
+@media (max-width: 432px) {
+  .timeline:before {
+    width: 0px;
+  }
+  .timeline-item:after {
+    opacity: 0;
+  }
+}
