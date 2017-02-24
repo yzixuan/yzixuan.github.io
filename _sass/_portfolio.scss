@@ -36,7 +36,7 @@
     text-transform: uppercase;
     -webkit-transition: .5s;
     transition: .5s;
-    padding-top: 25%;
+    padding-top: 35%;
     bottom: -10px;
     border-radius: 4px;
     opacity: 0;
@@ -55,4 +55,10 @@
       padding: 10px 0px;
     }
   }
+}
+
+@media (max-width: 432px) {
+    .portfolio-card p {
+      font-size: 24px;
+    }
 }
