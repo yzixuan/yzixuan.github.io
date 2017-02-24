@@ -169,6 +169,7 @@ h3.line-title span {
         margin-top: 0;
         margin-bottom: 10px;
         font-size: 16px;
+        font-weight: 700;
         text-transform: uppercase;
         color: #333;
       }
@@ -199,4 +200,22 @@ h3.line-title span {
   .timeline-item:after {
     opacity: 0;
   }
+
+  .timeline > li .timeline-item {
+    width: 100%;  /*for adjusting timeline*/
+  }
+  .timeline > li .timeline-description {
+    width: 100%;  /*for adjusting timeline*/
+    margin-left: 0;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+
+  .timeline li .timeline-item span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    float: right;
+    margin-top: -28px;
+}
 }
