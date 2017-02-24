@@ -171,8 +171,8 @@
   border-top: 1px solid #ccc;
 }
 
-/*
-@media (max-width: 991px) {
+
+@media (max-width: 767px) {
 
   #navbar {
     width: 100%;
@@ -249,10 +249,6 @@
       display: none;
     }
   }
-}
-*/
-
-@media (max-width: 767px) {
 
   #navbar .container {
     width: 80%;
