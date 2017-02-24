@@ -13,9 +13,14 @@ layout: default
           </div>
           <div class="col-md-8 col-md-offset-2">
               <div class="page-navigation">
-                <a href="/portfolio" class="prev">
+                <!--<a href="/portfolio" class="prev">
                   <button class="btn color">Back to Portfolio</button>
-                </a>
+                </a>!-->
+                {% if page.next.url %}
+                  <a class="prev" href="{{page.next.url}}">
+                    <button class="btn color">Prev <span class="next-sign">&laquo;</span> {{page.next.title}}</button>
+                  </a>
+                {% endif %}
                 {% if page.previous.url %}
                   <a class="next" href="{{page.previous.url}}">
                     <button class="btn color">Next <span class="next-sign">&raquo;</span> {{page.previous.title}}</button>
