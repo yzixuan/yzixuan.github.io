@@ -13,7 +13,7 @@ TravelMates serves as a single platform that allows F&E travelers to consolidate
 
 &nbsp;
 
-![alt text]({{ "/img/travelmates/homepage.png" | prepend: site.baseurl }})
+![]({{ "/img/travelmates/homepage.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -45,7 +45,7 @@ In response, our proposed service innovation will aim to tackle the challenge of
 
 While we have three key stakeholders as explained earlier, the primary users of the TravelMates portal would generally be F&E travelers themselves. Although the availability of information over the Internet has made it easier for F&E travelers to plan their own trips, the process of doing so is certainly not an easy one.
 
-![alt text]({{ "/img/travelmates/user-story-1.png" | prepend: site.baseurl }})
+![]({{ "/img/travelmates/user-story-1.png" | prepend: site.baseurl }})
 
 Anyone who has been involved in such a planning process should be able to identify with the hassle brought about from the following 5 typical tasks in F&E trip planning:
 
@@ -65,7 +65,7 @@ Searching for activities to do during trips as well as itineraries planned by ot
 
 &nbsp;
 
-![alt text]({{ "/img/travelmates/activity-information.png" | prepend: site.baseurl }})
+![]({{ "/img/travelmates/activity-information.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -77,7 +77,7 @@ Travelers may also choose to share any of these itineraries with the online comm
 
 &nbsp;
 
-![alt text]({{ "/img/travelmates/itinerary.png" | prepend: site.baseurl }})
+![]({{ "/img/travelmates/itinerary.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -93,7 +93,7 @@ To encourage active usage and provide alternative perspectives, TravelMates coul
 
 &nbsp;
 
-![alt text]({{ "/img/travelmates/review.png" | prepend: site.baseurl }})
+![]({{ "/img/travelmates/review.png" | prepend: site.baseurl }})
 
 &nbsp;
 

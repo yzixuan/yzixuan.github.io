@@ -30,7 +30,7 @@ Previously, when a user visited the food customization page (called Grain Person
 
 &nbsp;
 
-![alt text]({{ "/img/grain/popup-previous.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/popup-previous.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -38,7 +38,7 @@ This is the alternative I came up with to replace pop-up. I felt that if the use
 
 &nbsp;
 
-![alt text]({{ "/img/grain/popup-alt.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/popup-alt.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -48,7 +48,7 @@ As a user, I may want to select a hotzone (pickup point) without having to key i
 
 &nbsp;
 
-![alt text]({{ "/img/grain/delivery-previous.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/delivery-previous.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -60,7 +60,7 @@ This was the alternative design I proposed for getting the user to input their d
 
 &nbsp;
 
-![alt text]({{ "/img/grain/delivery-alt.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/delivery-alt.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -74,7 +74,7 @@ Grain's original checkout page’s design is relatively clean and simple enough 
 
 &nbsp;
 
-![alt text]({{ "/img/grain/checkout-previous.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/checkout-previous.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -84,7 +84,7 @@ The text description about delivery location could also be shifted to the right 
 
 &nbsp;
 
-![alt text]({{ "/img/grain/checkout-alt.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/checkout-alt.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -94,7 +94,7 @@ I also redesigned Grain's address form to allow users to differentiate between t
 
 &nbsp;
 
-![alt text]({{ "/img/grain/address-form.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/address-form.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -102,7 +102,7 @@ I removed the field where users choose delivery or pickup as their mode of colle
 
 &nbsp;
 
-![alt text]({{ "/img/grain/checkout-alt-2.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/checkout-alt-2.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -112,7 +112,7 @@ If the user’s address is within a hotzone, they would be able choose the mode 
 
 &nbsp;
 
-![alt text]({{ "/img/grain/grain-for-biz.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/grain-for-biz.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -124,7 +124,7 @@ If the user orders a number of meals beyond a certain threshold (e.g. 70) and se
 
 &nbsp;
 
-![alt text]({{ "/img/grain/mobile-menu.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/mobile-menu.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -132,7 +132,7 @@ Each main dish’s photo should be preferably presented and displayed from a bir
 
 &nbsp;
 
-![alt text]({{ "/img/grain/menu-info.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/menu-info.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -140,7 +140,7 @@ In addition, when the user scrolls down or taps on the orange INFO ribbon on the
 
 &nbsp;
 
-![alt text]({{ "/img/grain/sides.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/sides.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -148,7 +148,7 @@ The sides and drinks can be accessed by scrolling to the last 2 screens. Since G
 
 &nbsp;
 
-![alt text]({{ "/img/grain/extras.png" | prepend: site.baseurl }})
+![]({{ "/img/grain/extras.png" | prepend: site.baseurl }})
 
 &nbsp;
 

@@ -10,7 +10,7 @@ During my candidature in the National University of Singapore (NUS), I took an I
 
 &nbsp;
 
-![alt text]({{ "/img/foodbank/overview.png" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/overview.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -18,7 +18,7 @@ During my candidature in the National University of Singapore (NUS), I took an I
 
 Food Bank Singapore, an official member of The Global FoodBanking Network, started off in January 2012 with the objective of reducing food wastage in Singapore. It attained non-profit status in August 2012 and has since begun to bridge this gap in the food industry by collecting surplus food and redistributing them to people in need.
 
-![alt text]({{ "/img/foodbank/how-it-works.png" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/how-it-works.png" | prepend: site.baseurl }})
 
 As shown in the above diagram, Food Bank acts as a coordinator between different stakeholders such as the volunteers, donors (manufacturers, distributors, retail and consumers) and the beneficiary centres (community service providers) in the food supply chain. Donors will donate their unused or unwanted food to Food Bank. Donated food will then be allocated and distributed to the needy through a network of more than 130 member beneficiaries such as various types of homes, soup kitchens, family service centres and other voluntary welfare organisations (VWOs).
 
@@ -78,7 +78,7 @@ Throughout the semester, our team identified three main issues in Food Bank's ex
 
 &nbsp;
 
-![alt text]({{ "/img/foodbank/fish-bone.jpg" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/fish-bone.jpg" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -96,7 +96,7 @@ Currently, Food Bank's beneficiaries submit their food requests by filling in a 
 
 My team thought that we could reduce the average time required by a beneficiary centre to choose available food items and submit their food request to Food Bank. Instead of having to repetitively fill in a Google Form for each new request, an dedicated app could allow beneficiaries to request for food items from a list of available items sorted by stock quantity levels, and be notified if Food Bank is unable to meet their requests. The app could serve as a centralized platform for beneficiary centers to request for food items. With this, the manual process of collating food items requests from Google forms and emails can be eliminated.
 
-![alt text]({{ "/img/foodbank/food-requests.png" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/food-requests.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -111,9 +111,9 @@ One idea proposed by my teammates was to adopt international barcode scanning in
 As donated food items are reflected in real time on Food Bank’s website when the food items are being scanned by warehouse operators, this would enable beneficiary centers to view and request food based on real-time information of Food Bank’s food availability.
 
 
-![alt text]({{ "/img/foodbank/scanning-inbound.png" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/scanning-inbound.png" | prepend: site.baseurl }})
 
-![alt text]({{ "/img/foodbank/scanning-outbound.png" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/scanning-outbound.png" | prepend: site.baseurl }})
 
 #### Managing Food Deliveries
 
@@ -121,7 +121,7 @@ As donated food items are reflected in real time on Food Bank’s website when t
 
 Once the food items have been packed and the respective delivery orders have been generated, Food Bank's delivery team would then deliver the food items to the respective beneficiary centers within the following week. When the beneficiary centers receive these food items, delivery is acknowledged by scanning the centre's request QR code given to them prior to the delivery.
 
-![alt text]({{ "/img/foodbank/food-deliveries.png" | prepend: site.baseurl }})
+![]({{ "/img/foodbank/food-deliveries.png" | prepend: site.baseurl }})
 
 &nbsp;
 

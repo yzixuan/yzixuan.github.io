@@ -7,7 +7,7 @@ image: img/quickdesk.png
 categories: posts
 ---
 
-![alt text]({{ "/img/quickdesk/web-app.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/web-app.png" | prepend: site.baseurl }})
 
 QuickDesk is a CRM application optimized for sales professionals and teams to manage their leads and close prospects easier than ever.
 
@@ -38,8 +38,8 @@ The user should also be able to track his progress in contacting and initiating 
 
 There are generally 2 types of salespeople – hunters and farmers. A hunter is one who opens new markets and focuses on customer acquisition, whereas a farmer spends their time cultivating existing customers to allow for even more sales, with greater emphasis on customer retention.
 
-![alt text]({{ "/img/quickdesk/hunter.png" | prepend: site.baseurl }})
-![alt text]({{ "/img/quickdesk/farmer.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/hunter.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/farmer.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -51,7 +51,7 @@ At PearComms, we wanted to build a CRM system that caters to both types of sales
 
 The PearComms team had come up with a master wireframe detailing the dashboard screens and contact cards. During my stint, I worked closely with the development team to clarify doubts and discuss about changes to the wireframes and process flows from one screen to another. I modified some of the wireframes to make some pertinent features more obvious to the users.
 
-![alt text]({{ "/img/quickdesk/wireframe.jpeg" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/wireframe.jpeg" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -59,17 +59,17 @@ The PearComms team had come up with a master wireframe detailing the dashboard s
 
 Here are some of the final iterations of the mockups produced during the stint.
 
-![alt text]({{ "/img/quickdesk/web-app-1.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/web-app-1.png" | prepend: site.baseurl }})
 
-![alt text]({{ "/img/quickdesk/side-bars.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/side-bars.png" | prepend: site.baseurl }})
 
-![alt text]({{ "/img/quickdesk/lead-detail.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/lead-detail.png" | prepend: site.baseurl }})
 
-![alt text]({{ "/img/quickdesk/lead-detail-popover.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/lead-detail-popover.png" | prepend: site.baseurl }})
 
-![alt text]({{ "/img/quickdesk/call-widget.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/call-widget.png" | prepend: site.baseurl }})
 
-![alt text]({{ "/img/quickdesk/contact-card.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/contact-card.png" | prepend: site.baseurl }})
 
 &nbsp;
 
@@ -77,7 +77,7 @@ Here are some of the final iterations of the mockups produced during the stint.
 
 Of course, design does not end here. After the stint, I continued to keep in contact with PearComms to occasionally discuss about minor changes to the design and feedback from users. As the team developed the web app over the next few months, the team also validated some of the dashboard concepts by conducting training and asking salespeople and potential users to test the web app. Sometime later in March 2016, I drafted a list of user scenarios PearComms could use to conduct user interviews and usability testing. I adapted some of these testing methods from Steve Krug’s Rocket Surgery Made Easy guide.
 
-![alt text]({{ "/img/quickdesk/study.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/study.png" | prepend: site.baseurl }})
 
 For instance, I learnt that salespeople, especially those from the older generation, have a relatively high resistance to change in tools, so the on-boarding process for new users ought to focus more in helping users to import existing contacts and calendar events to the app with greater ease. Some users were also uncertain if a particular contact was in Singapore’s DNC registry before attempting to make a call, so the process for Internet-calling ought to account for a step in checking and assuring users that a contact was safe to call beforehand.
 
