@@ -3,7 +3,7 @@ layout: post
 title:  "TravelMates"
 behance-url: https://www.behance.net/gallery/32452763/Travel-Mates-Trip-Itinerary-Planner-UI-Design
 date:   2016-07-12 00:57:38 +0800
-image: img/travelmates.png
+image: img/travelmates.jpg
 categories: travel ui ux design sketch
 ---
 

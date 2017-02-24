@@ -2,7 +2,7 @@
 layout: post
 title:  "Grain"
 date:   2016-08-12 00:57:38 +0800
-image: img/grain.png
+image: img/grain.jpg
 categories: food delivery ui ux design sketch web mobile
 ---
 
