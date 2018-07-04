@@ -96,7 +96,7 @@
 }
 
 .social-media a i {
-  color: white;
+  color: #4b6cb7;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -123,6 +123,16 @@
   height: 40px;
   padding: 8px;
   border-radius: 20px;
+}
+
+.min-icon.linkedin, .min-icon.behance, .min-icon.twitter {
+  padding: 8px;
+  display:block;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .round-icon.linkedin {
