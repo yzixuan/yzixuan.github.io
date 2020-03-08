@@ -8,7 +8,7 @@
 
 .portfolio-card {
   padding: 0px;
-  //border-radius: 4px;
+  border-radius: 10px;
   position: relative;
   margin: 30px 10px;
   box-shadow:0px 25px 50px rgba(0,0,0,.5);
@@ -21,7 +21,7 @@
 
   img {
     width: 100%;
-    //border-radius: 4px;
+    border-radius: 10px;
   }
 
   p {
@@ -38,7 +38,7 @@
     transition: .5s;
     padding-top: 35%;
     bottom: -10px;
-    border-radius: 4px;
+    border-radius: 10px;
     opacity: 0;
 
     span.round-icon {
