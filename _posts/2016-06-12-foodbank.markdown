@@ -2,7 +2,7 @@
 layout: post
 title:  "Food Bank"
 date:   2016-06-12 00:57:38 +0800
-image: img/foodbank.jpg
+image: img/foodbank.png
 categories: food charity ui ux design sketch
 ---
 
