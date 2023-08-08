@@ -7,7 +7,7 @@ image: img/quickdesk-new.png
 categories: posts
 ---
 
-![]({{ "/img/quickdesk/dashboard-new.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/accounts-new.png" | prepend: site.baseurl }})
 
 &nbsp;
 
