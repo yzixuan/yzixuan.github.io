@@ -3,15 +3,17 @@ layout: post
 title:  "QuickDesk"
 behance-url: https://www.behance.net/gallery/25803375/Quick-Desk-Web-App-UI-Design
 date:   2016-08-12 00:57:38 +0800
-image: img/quickdesk.png
+image: img/quickdesk-new.png
 categories: posts
 ---
 
-![]({{ "/img/quickdesk/web-app.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/dashboard-new.png" | prepend: site.baseurl }})
+
+&nbsp;
 
 QuickDesk is a CRM application optimized for sales professionals and teams to manage their leads and close prospects easier than ever.
 
-During my brief stint at PearComms, I helped create the user experience design of the web app. I produced the major deliverables and worked with my client between February 2015 and April 2015. I worked alongside the co-founders, marketing lead and 2 developers.
+During my brief stint at PearComms, I helped create the user experience design of the web app. I produced the major deliverables and worked with my client between February 2015 and April 2015. I worked alongside the co-founders, marketing lead and 2 developers. I offered to updated the designs sometime again in 2022 with new components using the TailGrids component library, based off Tailwind CSS.
 
 Target Audience:
 
@@ -55,21 +57,13 @@ The PearComms team had come up with a master wireframe detailing the dashboard s
 
 &nbsp;
 
-### High-Fidelity Mockups
+### High Fidelity Mockups
 
-Here are some of the final iterations of the mockups produced during the stint.
+At the moment I'm working with the co-founder to give the webapp a more modern facelift. Stay tuned for more updates!
 
-![]({{ "/img/quickdesk/web-app-1.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/dashboard-new.png" | prepend: site.baseurl }})
 
-![]({{ "/img/quickdesk/side-bars.png" | prepend: site.baseurl }})
-
-![]({{ "/img/quickdesk/lead-detail.png" | prepend: site.baseurl }})
-
-![]({{ "/img/quickdesk/lead-detail-popover.png" | prepend: site.baseurl }})
-
-![]({{ "/img/quickdesk/call-widget.png" | prepend: site.baseurl }})
-
-![]({{ "/img/quickdesk/contact-card.png" | prepend: site.baseurl }})
+![]({{ "/img/quickdesk/lead-detail-new.png" | prepend: site.baseurl }})
 
 &nbsp;
 
