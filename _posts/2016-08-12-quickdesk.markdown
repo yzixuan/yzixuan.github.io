@@ -67,6 +67,10 @@ At the moment I'm working with the co-founder to give the webapp a more modern f
 
 ![]({{ "/img/quickdesk/accounts-new.png" | prepend: site.baseurl }})
 
+![]({{ "/img/quickdesk/workflows-new.png" | prepend: site.baseurl }})
+
+![]({{ "/img/quickdesk/automation-new.png" | prepend: site.baseurl }})
+
 &nbsp;
 
 ### User Testing
