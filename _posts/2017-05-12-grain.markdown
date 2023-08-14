@@ -110,11 +110,7 @@ In addition, I made some changes to the checkout form to allow users choose thei
 
 If the user’s address is within a hotzone, they would be able choose the mode of collection (either the delivery or pickup option) for different days. On the other hand, if the user’s address is not within a hotzone, then the default mode of collection would just be via delivery.
 
-&nbsp;
-
-![]({{ "/img/grain/grain-for-biz.png" | prepend: site.baseurl }})
-
-&nbsp;
+![]({{ "/img/grain/grain-for-biz-new.png" | prepend: site.baseurl }})
 
 If the user orders a number of meals beyond a certain threshold (e.g. 70) and selects pickup as a mode of collection, a message could appear to suggest the user to try Grain for Businesses instead. This is because we wanted to try to discourage companies from exploiting the free pickup option when they place bulk orders.
 
