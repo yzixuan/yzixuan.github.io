@@ -2,7 +2,7 @@
 layout: post
 title:  "Grain"
 date:   2017-05-12 00:57:38 +0800
-image: img/grain.png
+image: img/grain-new.png
 categories: food delivery ui ux design sketch web mobile
 ---
 
@@ -124,32 +124,16 @@ If the user orders a number of meals beyond a certain threshold (e.g. 70) and se
 
 &nbsp;
 
-![]({{ "/img/grain/mobile-menu.png" | prepend: site.baseurl }})
+As part of my freelance project, I also proposed a mobile app design as a proof of concept. I was careful to make sure that Grain does not come across as another food delivery app, as it markets itself as as online restaurant with its own unique offering of dishes. I tried to give the app a minimalistic look, in lined with Grain's branding.
+
+I also wanted to make sure that it was easy enough for the users to select their desired date and timeslot, along with their preferred method of collection (delivery or collection via a pickup point). The dates were easily selectable on the top to show customers Grain's menu for lunch and dinner on that day in advance.
+
+![]({{ "/img/grain/mobile-1-new.png" | prepend: site.baseurl }})
+
+Grain prides its conceptualisation and presentation of their own dishes and I wanted to make sure that the dishes also look appealing on the app and emphasis on its dish's writeup, as well as its nutritional information and ingredients prepared by their chefs.
 
 &nbsp;
 
-Each main dish’s photo should be preferably presented and displayed from a bird’s eye view. The table backdrop should also move along as the user scrolls through each dish.
+![]({{ "/img/grain/mobile-2-new.png" | prepend: site.baseurl }})
 
-&nbsp;
-
-![]({{ "/img/grain/menu-info.png" | prepend: site.baseurl }})
-
-&nbsp;
-
-In addition, when the user scrolls down or taps on the orange INFO ribbon on the left of the screen, more information about the dish is revealed (ingredients, nutritional info etc.) Nutritional Info could be presented in the form of progress circles to show the relative weight of each nutrition.
-
-&nbsp;
-
-![]({{ "/img/grain/sides.png" | prepend: site.baseurl }})
-
-&nbsp;
-
-The sides and drinks can be accessed by scrolling to the last 2 screens. Since Grain’s menu is quite small (only 3 to 4 main dishes per week) and considering how most users’ priority in ordering are not the sides and drinks, it should not be too much of a hassle to scroll right to view the sides and drinks. The more important way to get users to order sides and drinks should still be through the ‘add to cart’ interaction described in the previous page.
-
-&nbsp;
-
-![]({{ "/img/grain/extras.png" | prepend: site.baseurl }})
-
-&nbsp;
-
-Lastly, when a user adds a main dish to the cart, a modal appears to allow the user to add accompanying sides and drinks to their order. This acts as another way to encourage users to browse additional sides after selecting their main dish.
+Apart from the dish presentation, I also proposed some ways to entice customers into ordering sides (desserts and drinks) to meet the minimum spending value to reduce their delivery fee, as well as promote Grain's side offerings. Since Grain’s menu is quite small (only 4 to 5 main dishes per week) and considering how most users’ priority in ordering are not the sides and drinks, I felt that it would be a good way to suggest side dishes for customers to pair their meal with and add it to their cart. A small, but not too obtrusive, progress bar was added to the top of the menu screen and cart screen to nudge users into adding more items into their cart to reduce their delivery fee, if they had chosen delivery as their method of collection.
