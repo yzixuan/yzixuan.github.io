@@ -80,6 +80,8 @@ To allow users to communicate with prospects and clients using e-mail and text m
 
 ![]({{ "/img/quickdesk/workflows-new.png" | prepend: site.baseurl }})
 
+![]({{ "/img/quickdesk/trigger-new.png" | prepend: site.baseurl }})
+
 ![]({{ "/img/quickdesk/automation-new.png" | prepend: site.baseurl }})
 
 &nbsp;
