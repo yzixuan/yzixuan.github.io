@@ -57,15 +57,26 @@ The PearComms team had come up with a master wireframe detailing the dashboard s
 
 &nbsp;
 
-### High Fidelity Mockups
+### A suite for salespeople to consolidate their prospects and run marketing, sales
 
-At the moment I'm working with the co-founder to give the webapp a more modern facelift. Stay tuned for more updates!
+On an everyday basis, salespeople spend their time switching from one tool to another to manage their sales, communicate with their customers, run sales, dig analytics, and much more. QuickDesk aims to change this by bringing all these tools together in one platform, tailored specifically for insurance agencies' workflows.
+My goal was to redesign and improve their flagship product.
+
+&nbsp;
 
 ![]({{ "/img/quickdesk/dashboard-new.png" | prepend: site.baseurl }})
 
 ![]({{ "/img/quickdesk/lead-detail-new.png" | prepend: site.baseurl }})
 
 ![]({{ "/img/quickdesk/accounts-new.png" | prepend: site.baseurl }})
+
+&nbsp;
+
+### Marketing automations – one place for Multi-channel communications
+
+To allow users to communicate with prospects and clients using e-mail and text messages as one communication stream, I helped designed an experience where both communication channels can be used inside one marketing campaign or marketing automation. My goal here is to help salespeople drive automated email and text messages to connect with customers when they are most ready to engage.
+
+&nbsp;
 
 ![]({{ "/img/quickdesk/workflows-new.png" | prepend: site.baseurl }})
 
