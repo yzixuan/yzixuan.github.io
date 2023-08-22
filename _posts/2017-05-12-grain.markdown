@@ -132,4 +132,6 @@ Grain prides its conceptualisation and presentation of their own dishes and I wa
 
 ![]({{ "/img/grain/mobile-2-new.png" | prepend: site.baseurl }})
 
+![]({{ "/img/grain/mobile-3-new.png" | prepend: site.baseurl }})
+
 Apart from the dish presentation, I also proposed some ways to entice customers into ordering sides (desserts and drinks) to meet the minimum spending value to reduce their delivery fee, as well as promote Grain's side offerings. Since Grain’s menu is quite small (only 4 to 5 main dishes per week) and considering how most users’ priority in ordering are not the sides and drinks, I felt that it would be a good way to suggest side dishes for customers to pair their meal with and add it to their cart. A small, but not too obtrusive, progress bar was added to the top of the menu screen and cart screen to nudge users into adding more items into their cart to reduce their delivery fee, if they had chosen delivery as their method of collection.
