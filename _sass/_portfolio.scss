@@ -1,9 +1,12 @@
+@use 'colors';
+@use 'fonts';
+
 #portfolio-sitename {
   line-height: 100px;
   font-size: 100px;
-  font-family: $cassannet-outline-font;
+  font-family: fonts.$cassannet-outline-font;
   margin: -10px 0 20px 0;
-  color: $secondary-color;
+  color: colors.$secondary-color;
 }
 
 .portfolio-card {
@@ -16,7 +19,7 @@
 
   &:hover p {
     opacity: 0.9;
-    @include color-gradient($theme-color, $noir-2);
+    @include colors.color-gradient(colors.$theme-color, colors.$noir-2);
   }
 
   img {
@@ -31,7 +34,7 @@
     text-align: center;
     color: white;
     font-size: 32px;
-    font-family: $secondary-font;
+    font-family: fonts.$secondary-font;
     letter-spacing: 5px;
     text-transform: uppercase;
     //-webkit-transition: .5s;

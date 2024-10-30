@@ -1,11 +1,13 @@
+@use 'colors';
+
 .section {
   overflow: hidden;
   background-color: #fff;
 
-  &.gray { background-color: $pale-grey-color; }
+  &.gray { background-color: colors.$pale-grey-color; }
 
   &.navy {
-    @include color-gradient($noir-1, $noir-2);
+    @include colors.color-gradient(colors.$noir-1, colors.$noir-2);
 
     .title, .description { color: #fff; }
   }
@@ -131,8 +133,8 @@ h3.line-title span {
         top: 0;
         width: 12px;
         height: 12px;
-        background-color: $pale-grey-color;
-        border: 2px solid $secondary-color;
+        background-color: colors.$pale-grey-color;
+        border: 2px solid colors.$secondary-color;
         margin-left: -6px;
         border-radius: 50%;
       }
@@ -145,16 +147,16 @@ h3.line-title span {
       h4 {
         margin-top: 0;
         margin-bottom: 10px;
-        color: $secondary-color;
+        color: colors.$secondary-color;
         font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 1px;
 
         a {
-          color: $secondary-color;
+          color: colors.$secondary-color;
 
           &:hover {
-              color: $link-color;
+              color: colors.$link-color;
           }
         }
       }
@@ -188,7 +190,7 @@ h3.line-title span {
       }
 
       p {
-        color: $text-color;
+        color: colors.$text-color;
       }
     }
   }

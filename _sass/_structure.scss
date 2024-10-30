@@ -1,6 +1,9 @@
+@use 'colors';
+@use 'fonts';
+
 html, body {
-  font-family: $base-font;
-  color: $text-color;
+  font-family: fonts.$base-font;
+  color: colors.$text-color;
   height: 100%;
 }
 
@@ -9,7 +12,7 @@ ul {
 }
 
 hr {
-  border-color: $hr-color;
+  border-color: colors.$hr-color;
   margin: 0;
 }
 

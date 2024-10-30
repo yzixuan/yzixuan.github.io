@@ -1,14 +1,13 @@
 ---
 ---
 
-@import 'colors';
-@import 'fonts';
-@import 'buttons';
-@import 'navbar';
-@import 'structure';
-@import 'header';
-@import 'sections';
-@import 'process';
-@import 'portfolio';
-@import 'posts';
-@import 'footer';
+@use 'fonts';
+@use 'buttons';
+@use 'navbar';
+@use 'structure';
+@use 'header';
+@use 'sections';
+@use 'process';
+@use 'portfolio';
+@use 'posts';
+@use 'footer';

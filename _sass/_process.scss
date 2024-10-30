@@ -1,14 +1,16 @@
+@use 'colors';
+
 .content {
 
   padding: 30px 0px;
 
   h3 {
     &.orange {
-      color: $orange-color;
+      color: colors.$orange-color;
     }
 
     &.purple {
-      color: $purple-color;
+      color: colors.$purple-color;
     }
   }
 

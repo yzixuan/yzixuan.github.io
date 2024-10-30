@@ -1,3 +1,5 @@
+@use 'colors';
+
 .btn {
   font-weight: bold;
   position: relative;
@@ -22,17 +24,17 @@
 
 /* btn colors */
 .btn.color {
-  border: 2px solid $secondary-color;
-  color: $secondary-color;
+  border: 2px solid colors.$secondary-color;
+  color: colors.$secondary-color;
 }
 
 .btn.color i {
-  color: $secondary-color;
+  color: colors.$secondary-color;
 }
 
 .btn.color:hover {
-  background-color: $secondary-color;
-  border-color: $secondary-color;
+  background-color: colors.$secondary-color;
+  border-color: colors.$secondary-color;
   color: white;
 }
 
@@ -43,13 +45,13 @@
 }
 
 .btn.sec-btn {
-  border: 2px solid $secondary-color;
+  border: 2px solid colors.$secondary-color;
   color: white;
-  background-color: $secondary-color;
+  background-color: colors.$secondary-color;
 
   &:hover {
-    border: 2px solid $theme-color;
-    background-color: $theme-color;
+    border: 2px solid colors.$theme-color;
+    background-color: colors.$theme-color;
 
     i {
       -webkit-transition: color .3s;
@@ -59,15 +61,15 @@
 }
 
 .btn.teal.color{
-  border: 2px solid $teal-color;
-  color: $teal-color;
+  border: 2px solid colors.$teal-color;
+  color: colors.$teal-color;
 
   i {
-    color: $teal-color;
+    color: colors.$teal-color;
   }
   &:hover {
-    background-color: $teal-color;
-    border-color: $teal-color;
+    background-color: colors.$teal-color;
+    border-color: colors.$teal-color;
     color: white;
     i {
       color: white;
@@ -80,7 +82,7 @@
 /******* SOCIAL MEDIA BUTTONS *******/
 
 .social-media a:hover i {
-  color: $theme-color;
+  color: colors.$theme-color;
 }
 
 .social-media {
@@ -89,7 +91,7 @@
 }
 
 .social-media a {
-  color: $link-hover-color;
+  color: colors.$link-hover-color;
   padding: 0 10px 0 10px;
   display: inline-block;
   font-size: 20px;
@@ -151,8 +153,8 @@
 }
 
 .round-icon.readmore {
-  background-color: $secondary-color;
-  border-bottom: 2px solid $secondary-color;
+  background-color:  colors.$secondary-color;
+  border-bottom: 2px solid colors.$secondary-color;
 }
 
 .round-icon.email {

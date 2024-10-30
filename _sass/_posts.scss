@@ -1,10 +1,12 @@
+@use 'fonts';
+
 /***** PAGE NAVIGATION *****/
 .page-navigation {
   font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
-  font-family: $secondary-font;
+  font-family: fonts.$secondary-font;
 
   a {
     display: block;

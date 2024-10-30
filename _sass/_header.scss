@@ -1,3 +1,6 @@
+@use 'colors';
+@use 'fonts';
+
 /******* BACKGROUND IMAGE *******/
 .parallax {
   overflow: hidden;
@@ -5,7 +8,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: $theme-color;
+  background-color: colors.$theme-color;
 
   img {
     position: absolute;
@@ -34,7 +37,7 @@
 #header-text {
   padding-top: 80px;
   height: 120%;
-  background: $blue-gradient;
+  background: colors.$blue-gradient;
   text-align: center;
 }
 
@@ -53,7 +56,7 @@
   h1 {
     display: block;
     margin: 0;
-    color: $white-translucent;
+    color: colors.$white-translucent;
     font-size: 40px;
   }
 
@@ -62,12 +65,12 @@
     padding-top: 70px;
     margin: 0;
     height: 60%;
-    color: $white-translucent;
+    color: colors.$white-translucent;
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 27px;
     font-weight: 300;
-    font-family: $base-font;
+    font-family: fonts.$base-font;
   }
 
   .bottom {
@@ -94,7 +97,7 @@
 #sitename {
   line-height: 140px;
   font-size: 140px;
-  font-family: $cassannet-outline-font;
+  font-family: fonts.$cassannet-outline-font;
 }
 
 .full-stop {
@@ -116,8 +119,8 @@
   h1 {
     display: block;
     margin: 0;
-    color: $secondary-color;
-    font-family: $base-font;
+    color: colors.$secondary-color;
+    font-family: fonts.$base-font;
     font-size: 36px;
     text-align: center;
   }
@@ -128,7 +131,7 @@
     margin: auto;
     height: 3px;
     margin-top: 30px;
-    background-color: $secondary-color;
+    background-color: colors.$secondary-color;
   }
 
   .logo {
@@ -139,7 +142,7 @@
     font-size: 66px;
 
     i {
-      color: $white-translucent;
+      color: colors.$white-translucent;
       position: absolute;
       left: 0;
       right: 0;
